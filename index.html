@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body id="body">
+  <div id="welcome"><h2 id="welcomeuserh2">🚀Welcome to My Dashboard👋</h2>
+  <h5>Made by Daniyal</h5>
+  </div>
+  <br>
+  <div id="welcomeuser">
+<h2 id="welcomeh2">👋Welcome User</h2>
+<center>
+<input id="username" type="text" placeholder="Enter your name...">
+<br><br>
+<button id="greetbutton">Say Hello</button>
+  </center>
+<h3><b id="usernameresult"></b></h3>
+<h6 id="usernameresult2"></h6>
+  </div>
+  <br>
+  <div id="themeswitcher">
+<h2 id="themeswitcherh2">🌙 Theme Switcher</h2>
+<div id="currentmodewrapper">
+<p>Current Mode</p> <div id="currentmode">Light</div>
+</div>
+<br>
+<br>
+<button id="themeswitcherbtn">Change Theme</button>
+  </div>
+  <br>
+    <div id="diceroller">
+<h2 id="dicerollerh2">🎲 Dice Roller</h2>
+<img id="dice" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Dice-1.svg">
+<center>
+<p id="dicevalue">1</p>
+</center>
+<button id="dicerollbtn">Roll Dice</button>
+  </div>
+  <br>
+   <div id="coinflipper">
+<h2 id="coinflipperh2">🟡 Coin Flipper</h2>
+<img id="coin" src="heads.png">
+<center>
+<p id="coinvalue">Heads</p>
+</center>
+<button id="coinbtn">Flip coin</button>
+  </div>
+  <br>
+   <div id="emojizone">
+<h2 id="emojizoneh2">🙂 Emoji Zone</h2>
+<center>
+<p id="emoji">🙂</p>
+<br>
+<div id="emojieffects">
+<button class="effectbtns" id="hoverbtn">Hover 😍</button>
+<button class="effectbtns" id="clickbtn">Click 🤪</button> 
+<button class="effectbtns" id="dblclickbtn">Double click 😎</button> 
+<button class="effectbtns" id="outbtn">Out 😴</button> 
+</div>
+  </div>
+  <br>
+  <div id="keyboardtester">
+<h2 id="keyboardtesterh2">⌨️ Keyboard Tester</h2>
+<p id="keyboardtesterp">Press any key on your keyboard</p>
+<center>
+<div id="innerkeyboardtester">
+<h3 id="keyboardtesterh3">You pressed:</h3>
+<h1 id="youpressed"></h1>
+</div>
+</center>
+  </div>
+  <br>
+  <div id="mousetracker">
+<h2 id="mousetesterh2">🖱️ Mouse Tracker</h2>
+<p id="mousetesterp">Move your mouse around this area</p>
+<center>
+<div id="mousemover">
+<p>X:<span id="xmouse"></span> Y:<span id="ymouse"></span></p>
+</div>
+</center>
+  </div>
+  <br>
+   <div id="pizzaorder">
+<h2 id="pizzaorderh2">🍕 Pizza Order</h2>
+<label id="pizzanamelabel" for="pizzaname">Name:</label>
+<input type="text" id="pizzaname">
+<br>
+<br>
+<div id="pizzasizediv">
+  <label id="pizzasizedivlabel" for="pizzasizediv">Pizza Size</label>
+<input type="radio" id="pizzasizesmall" name="pizza" value="Small">
+<label id="pizzasizesmalllabel" for="pizzasizesmall">Small</label>
+<input type="radio" id="pizzasizemedium" name="pizza" value="Medium">
+<label id="pizzasizemediumlabel" for="pizzasizemedium">Medium</label>
+<input type="radio" id="pizzasizebig" name="pizza" value="Big">
+<label id="pizzasizebiglabel" for="pizzasizebig">Big</label>
+</div>
+<br>
+<label id="extracheeselabel" for="extracheese">Extra Cheese</label>
+<input type="checkbox" id="extracheese">
+<label id="extracheeselabel2" for="extracheese">Yes, add extra cheese!</label>
+<br>
+<br>
+<label id="drinklabel" for="drink">Drink</label>
+<select id="drink">
+  <option>Pepsi</option>
+<option>Sprite</option>
+<option>Coca Cola</option>
+  </select>
+  <br>
+  <br>
+  <center>
+  <button id="pizzaorderbtn">🍕 Place Order</button>
+<br>
+<br>
+<div id="pizzasummary">
+  <center>
+  <h2 id="ordersummaryh2">Order Summary</h2>
+  </center>
+  <p class="summary"><b>Name:</b><span id="summaryname"></span></p>
+  <p class="summary"><b>Pizza Size</b><span id="summarypizzasize"></span></p>
+<p class="summary"><b>Extra Cheese</b><span id="summaryextracheese"></span></p>
+<p class="summary"><b>Drink</b><span id="summarydrink"></span></p>
+</div>
+</center>
+  </div>
+  <br>
+  <div id="notes">
+  <center>
+  <h2 id="notesh2">📝 Notes</h2>
+  <input type="text" id="notesinput" placeholder="Type your notes here">
+<button id="notesbtn">Add note</button>
+<ul id="notesullist"></ul>
+  </center>
+  </div>
+  <br>
+  <div id="dashboardstats">
+  <h2 class="white">📊 Dashboard Stats</h2>
+  <center>
+  <div class="statsboxes">
+ <p class="statsboxesp">🎲 Dice Rolls</p><div class="statscountboxes" id="statscountdice">0</div>
+  </div>
+  <br>
+  <div class="statsboxes">
+  <p class="statsboxesp">🍕 Orders Placed</p><div class="statscountboxes" id="statscountpizza">0</div>
+  </div>
+  <br>
+  <div class="statsboxes">
+   <p class="statsboxesp">🟡 Coin Flip</p> <div class="statscountboxes" id="statscountcoin">0</div>
+  </div>
+  <br>
+  <div class="statsboxes">
+ <p class="statsboxesp">📝 Notes Added</p>
+ <div class="statscountboxes" id="statscountnote">0</div>
+  </div>
+  </center>
+  </div>
+  <script src="javascript.js"></script>
+  </body>
+</html>
