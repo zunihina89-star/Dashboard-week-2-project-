@@ -1,0 +1,324 @@
+  body{
+  margin:0px;
+  padding:0px;
+  background-color: white;
+  }
+  #welcome{
+  height:72px;
+  color:white;
+  background: linear-gradient(90deg, #111e4b, #2c1d3a, #0c1438);
+  border-radius:8px;
+  }
+  #welcomeuser{
+  height:220px;
+  border:2px solid skyblue;
+  border-radius:8px;
+  background-color: #F0F8FF;
+  }
+  .welcomeusertext{
+  color:#1E293B;
+  }
+  #username{
+  width:300px;
+background-color: white;
+  }
+  #greetbutton{
+  height:30px;
+  width:320px;
+  background-color:#007BFF;
+  border-radius:7px;
+  color: white;
+  }
+  #themeswitcher{
+height:220px;
+  border-radius:8px;
+  background-color:#FFFBEA;
+  border:2px solid #FCE38A;
+  text-align:center;
+  }
+  #themeswitcherh2{
+  color:#C59015;
+  }
+  #currentmodewrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+  margin-top: 20px;
+  }
+  #currentmode{
+  border-radius:15px; 
+background-color:#F9F1DC;
+border: 2px solid #C59015;
+padding: 6px 16px;
+  }
+  #themeswitcherbtn{
+  height:30px;
+  width:320px;
+  background-color:#F4C430;
+  border-radius:7px;
+  color: white;
+  }
+    #diceroller{
+  height:220px;
+  border-radius:8px;
+  background-color:#F0FDF4;
+  border:2px solid #DCFCE7;
+  text-align:center;
+  }
+  #dicerollbtn{
+  height:30px;
+  width:320px;
+  background-color:#22C55E;
+  border-radius:7px;
+  color: white;
+  }
+  #dicerollerh2{
+  color:#166534;
+  }
+  #dice{
+  height:60px;
+  width:60px;
+  }
+  #coinflipper{
+  height:220px;
+  border-radius:8px;
+  background-color:#FAF5FF;
+  border:2px solid #F3E8FF;
+  text-align:center;
+  }
+  #coin{
+  height:60px;
+  width:60px;
+  }
+  #coinbtn{
+  height:30px;
+  width:320px;
+  background-color:#A855F7;
+  border-radius:7px;
+  color: white;
+  }
+  #coinflipperh2{
+  color:#6B21A8;
+  }
+   #emojizone{
+  height:220px;
+  border-radius:8px;
+  background-color:#FFECEC;
+  border:2px solid #FCA5A5;
+  text-align:center;
+  }
+  #emojizoneh2{
+  color:#991B1B;
+  }
+  #emoji{
+  margin:0;
+ font-size:4rem;
+  }
+  #emojieffects{
+  display:inline;
+  }
+  .effectbtns{
+  height:30px;
+  width:70px;
+  border-radius:5px;
+  color:#ffffff;
+  }
+  #hoverbtn{
+  background-color:#B91C1C;
+  border:1px solid #991B1B;
+  }
+  #clickbtn{
+  background-color:#FBBF24;
+  border:1px solid #F59E0B;
+  }
+  #dblclickbtn{
+  background-color:#22C55E;
+  border:1px solid #86EFAC;
+  height:30px;
+  width:110px;
+  }
+  #outbtn{
+  background-color:#3B82F6;
+  border:1px solid #93C5FD;
+  }
+  #keyboardtester{
+  height:220px;
+  border-radius:8px;
+  background-color:#F0F7FF;
+  border:2px solid #BFDBFE;
+  text-align:center;
+  }
+  #innerkeyboardtester{
+  height:100px;
+  width:220px;
+  border:1px solid darkgray;
+  border-radius:8px;
+  }
+  #mousetracker{
+  height:220px;
+  border-radius:8px;
+  background-color:#E0F2FE;
+  border:2px solid #93C5FD;
+  text-align:center;
+  }
+  #mousemover{
+  height:100px;
+  width:250px;
+  border-radius:8px;
+  background-color: lightgray;
+  border:2px dashed darkgray;
+  text-align:center;
+  }
+  #pizzaorder{
+  height:470px;
+  border-radius:8px;
+  background-color:#FEF2F2;
+  border:2px solid #FECACA;
+  }
+  #pizzasizediv{
+  display:flex;
+  }
+  #pizzaname{
+  background-color:white;
+  }
+  #pizzaorderbtn{
+  height:30px;
+  width:320px;
+  background-color:#EF4444;
+  border-radius:7px;
+  color: white;
+  }
+  #pizzasummary{
+  height:180px;
+  width:320px;
+  border-radius:8px;
+  background-color:#FFF5F5;
+  border:2px dashed #FCA5A5;
+  }
+  #ordersummaryh2{
+  color:#991B1B;
+  }
+  .summary{
+  margin:7px;
+  }
+  #notes{
+  height:150px;
+  border-radius:8px;
+  background-color:#F0FDF4;
+  border:2px solid #BBF7D0;
+  }
+  #notesinput{
+  height:25px;
+  width:250px;
+background-color: white;
+border-radius:7px;
+  }
+  #notesbtn{
+  height:30px;
+  width:70px;
+  background-color:#22C55E;
+  border-radius:8px;
+  color: white;
+  }
+  #notesullist{
+  text-align:left;
+  }
+  #dashboardstats{
+  height:270px;
+  border-radius:8px;
+  background-color:#1E293B;
+  border:2px solid #334155;
+  text-align:center;
+  color: white;
+  }
+  .statsboxes{
+  width:300px;
+  height:30px;
+  border:1px solid #0F172A;
+  background-color: gray;
+  border-radius:10px;
+  overflow: hidden;
+  text-align:left;
+  display:flex;
+justify-content:space-between;
+align-items:center;
+  }
+  .statsboxesp{
+  margin: 0;
+line-height: 1.4;
+font-size: 16px;
+color:#FFFFFF;
+  }
+  .statscountboxes{
+  height:30px;
+  width:100px;
+  border-radius:10px; 
+padding: 6px 16px;
+box-sizing:border-box;
+color: black;
+}
+#statscountdice{
+background-color:#F0FDF4;
+  border:1px solid #DCFCE7;
+}
+#statscountpizza{
+background-color:#FEF2F2;
+  border:1px solid #FECACA;
+}
+#statscountcoin{
+background-color:#FAF5FF;
+  border:2px solid #F3E8FF;
+}
+#statscountnote{
+background-color:#F0FDF4;
+  border:2px solid #BBF7D0;
+}
+.darkwelcomeuser{
+height:220px;
+  border:2px solid ;
+  border-radius:8px;
+  background-color: #1E293B !important;
+}
+.darkthemeswitcher{
+background-color:#27272A !important;
+  border:2px solid #78350F;
+  color: white;
+}
+.darkdiceroller{
+background-color:#1E2D24 !important;
+  border:2px solid #22C55E !important;
+}
+.darkcoinflipper{
+background-color:#251F30 !important;
+  border:2px solid #3F3452 !important;
+}
+.darkemojizone{
+background-color:#2D1F21 !important;
+  border:2px solid #4A3235 !important;
+}
+.darkkeyboardtester{
+background-color:#1E2836 !important;
+  border:2px solid #334155 !important;
+}
+.darkmousetracker{
+  background-color:#192A32 !important;
+  border:2px solid #2D4855 !important;
+}
+.darkpizzaorder{
+background-color:#2D1F21 !important;
+  border:2px solid #4A3235 !important;
+}
+.darkpizzasummary{
+background-color:#231719 !important;
+  border:2px dashed #A84343 !important;
+  color: white !important;
+}
+.darknotes{
+background-color:#1B2A22 !important;
+  border:2px solid #2D4838 !important;
+}
+.darkdashboardstats{
+background-color:#1E2836 !important;
+  border:2px solid #334155 !important;
+}
